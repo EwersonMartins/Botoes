@@ -1,1 +1,49 @@
+/* Configuração do fundo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Estilização do Botão */
+.btn-interativo {
+    background-color: #238636; /* Verde estilo GitHub */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; /* Deixa a transição suave */
+}
+
+/* Efeito ao passar o mouse (Hover) */
+.btn-interativo:hover {
+    background-color: #2ea44f;
+    transform: translateY(-2px); /* Sobbe o botão de leve */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Efeito ao clicar (Active) */
+.btn-interativo:active {
+    transform: translateY(1px); /* Desce o botão simulando o clique */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do texto abaixo do botão */
+#mensagemStatus {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #57606a;
+}
 
