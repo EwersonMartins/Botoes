@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão Interativo</title>
+    <!-- Vinculando o arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- O nosso botão com um ID para o JavaScript encontrá-lo -->
+        <button id="meuBotao" class="btn-interativo">Clique em Mim!</button>
+        
+        <!-- Um texto que vai mudar quando o botão for clicado -->
+        <p id="mensagemStatus">Aguardando comando...</p>
+    </div>
+
+    <!-- Vinculando o arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
 
